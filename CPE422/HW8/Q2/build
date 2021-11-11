@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Compiling analogIn.cpp and test_analog.cpp."
+g++ analogIn.cpp test_analog.cpp -o test_analog
+echo "Done."

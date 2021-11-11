@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Compiling myBlink.cpp and derek_LED.cpp"
+g++ myBlink.cpp derek_LED.cpp -o myBlink
+echo "Done."

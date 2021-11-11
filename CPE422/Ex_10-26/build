@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Building the currencyApp application"
+g++ -Wall currencyApp.cpp currencyConverter.cpp -o currencyApp
+echo "Finished"

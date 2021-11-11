@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Compiling control_GPIO.cpp"
+g++ control_GPIO.cpp -o control_GPIO
+
+echo "Configuring p9.12 to output"
+config-pin -a p9.12 out
+
+echo "Configuring p8.16 to input+"
+config-pin -a p8.16 in+

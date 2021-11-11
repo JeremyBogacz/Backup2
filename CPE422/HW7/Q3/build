@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Compiling bankAccount.cpp and bankApp.cpp."
+g++ bankAccount.cpp bankApp.cpp -o bankApp
+echo "Done."

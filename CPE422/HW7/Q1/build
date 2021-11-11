@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Compiling myApp.cpp and derek_LED.cpp"
+g++ myApp.cpp derek_LED.cpp -o myApp
+echo "Done."
